@@ -1,13 +1,4 @@
-# Spectre <img src="man/figures/SpectreFillWhite.png" align="right" width=250 style="margin-left: 10px;">
-
-A computational toolkit in R for the integration, exploration, and analysis of high-dimensional single-cell cytometry and imaging data.
-
-**Current version**: [`v1.3.0`](https://github.com/ImmuneDynamics/Spectre/releases)
-
-[![R-CMD-check](https://github.com/ImmuneDynamics/Spectre/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/ImmuneDynamics/Spectre/actions/workflows/check-standard.yaml)
-[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/akhvb8wub6d6xhtd?svg=true)](https://ci.appveyor.com/project/tomashhurst/spectre)
-
-<br/>
+# Personal Fork of Spectre <img src="man/figures/SpectreFillWhite.png" align="right" width=250 style="margin-left: 10px;">
 
 ## About
 
@@ -21,37 +12,6 @@ To manage large cytometry datasets, Spectre was built on the data.table framewor
 
 <br/>
 
-
-## Getting started
-
-We provide a variety of workflows and tutorials on our main page here: [https://immunedynamics.github.io/spectre](https://immunedynamics.github.io/spectre)
-
-### Installation
-
-We recommend using Spectre with [R](https://cran.r-project.org/mirrors.html) and [RStudio](https://www.rstudio.com/products/rstudio/download/#download). If you are unfamiliar with using R and RStudio, check out our [basics guide](https://immunedynamics.io/Spectre/articles/basics_guide.html) for help getting started.
-
-Once R and RStudio are installed, run the following code to install the Spectre package using the package `pak`.
-
-```         
-# Installs the package 'pak' if required
-if (!requireNamespace("pak", quietly = TRUE)) {
-    install.packages("pak")
-}
-# Install the Spectre package
-pak::pkg_install("immunedynamics/Spectre")
-```
-
-For detailed installation instructions and alternative installation pathways, see our [installation guide](https://immunedynamics.io/Spectre/articles/install/).
-
-### New to R or Spectre?
-
-New users can check out our [basics guides](https://immunedynamics.io/Spectre/articles/basics_guide.html) to get acquainted with using R, RStudio, and Spectre.
-
-### Workflows and protocols
-
-When you are ready to start analysis, check out our structured workflows and tutorials for cytometry and spatial analysis by browsing the menu at the top of our [home page](https://immunedynamics.io/spectre). Not sure where to get started? Try out our [Simple Discovery](https://immunedynamics.io/Spectre/articles/simple_discovery.html) workflow for basics clustering analysis of cytometry data.
-
-<br/>
 
 ## Citation
 
